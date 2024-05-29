@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="" />
+  <meta name="author" content="Ryxx" />
+  <base href="https://ryxx.vercel.app" />
+  <link href="https://telegra.ph/file/f9df5ee4af78f47d9c31a.png" rel="icon" />
+  <title>RYX APIs</title>
+  <link href="https://indrijunanda.github.io/RuangAdmin/vendor/fontawesome-free/css/all.min.css" rel="stylesheet"
+    type="text/css" />
+  <link href="https://indrijunanda.github.io/RuangAdmin/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"
+    type="text/css" />
+  <link href="https://indrijunanda.github.io/RuangAdmin/css/ruang-admin.min.css" rel="stylesheet" />
+  <meta property="og:title" content="REST API FOR ALL" />
+  <meta property="og:description"
+    content="use it wisely" />
+  <meta property="og:image" content="https://telegra.ph/file/f9df5ee4af78f47d9c31a.png" />
+  <meta property="og:url" content="index.html" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/androidstudio.min.css" />
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+  <script>
+    hljs.initHighlightingOnLoad();
+  </script>
+</head>
+
+<body id="page-top">
+  <div id="wrapper">
+    <ul class="navbar-nav sidebar bg-gray-900 accordion bg-light" id="accordionSidebar"
+      style="color: rgb(8, 247, 255);">
+      <a class="sidebar-brand d-flex align-items-center justify-content-center bg-gray-900"
+        style="color: rgb(7, 255, 201);">
+        <span style="color: rgb(255, 255, 255);">RYX APIS</span>
+      </a>
+      <hr class="sidebar-divider my-0" />
+      <li class="nav-item active">
+        <a class="nav-link">
+          <i class="fas fa-fw fa-code"></i>
+          <span>Documentation</span></a>
+      </li>
+      <hr class="sidebar-divider" />
+      <div class="sidebar-heading">Features</div>
+      <li class="nav-item">
+          <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseSearch" aria-expanded="true"
+            aria-controls="collapseSearch">
+            <i class="fas fa-fw fa-search"></i>
+            <span>Artificial Intelligence</span>
+          </a>
+          <div id="collapseSearch" class="collapse" aria-labelledby="headingSearch" data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+              <h6 class="collapse-header">AI - Features</h6>
+              <a class="collapse-item" href="/api/ragbot?message=hello">Ragbot</a>
+              <a class="collapse-item" href="/api/degreeguru?message=hai">Degreeguru</a>
+              <a class="collapse-item" href="/api/pinecone?message=hai">pinecone</a>
+              <a class="collapse-item" href="/api/openai?text=hai">Cooming Soon</a>
+             </div>
+          </div>
+        </li>
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseGames" aria-expanded="true" aria-controls="collapseForm">
+            <i class="app-menu__icon fa fa-laptop"></i>
+            <span>Downloader</span>
+        </a>
+        <div id="collapseGames" class="collapse" aria-labelledby="headingForm" data-parent="#accordionSidebar">
+            <div class="py-2 collapse-inner rounded">
+            <h6 class="collapse-header">Downloader </h6>
+            <a class="collapse-item" href="/api/tiktok?url=https://vt.tiktok.com/ZSYj9uVGS/">Tiktok</a>
+            <a class="collapse-item" href="/api/igdl?url=YOUR_URL">Instagram</a>
+            <a class="collapse-item" href="/api/spotify?url=YOUR_URL">Spotify</a>
+         </div>
+        </div>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseAi"
+          aria-expanded="true" aria-controls="collapsePhotooxy">
+          <i class="fa fa-anchor" aria-hidden="true"></i>
+          <span>Tools</span>
+        </a>
+        <div id="collapseAi" class="collapse" aria-labelledby="headingFun" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <h6 class="collapse-header">Tools - feature</h6>
+            <a class="collapse-item" href="/photooxy/shadow?text=Hai">coming soon</a>
+          </div>
+        </div>
+      </li>
+      <hr class="sidebar-divider" />
+      <div class="version" id="version-ruangadmin"></div>
+    </ul>
+
+    <div id="content-wrapper" class="d-flex flex-column">
+      <div id="content">
+        <nav class="navbar navbar-expand navbar-light bg-navbar topbar mb-4 static-top bg-gray-900">
+          <button id="sidebarToggleTop" class="btn btn-link rounded-circle mr-3">
+            <i class="fa fa-bars"></i>
+          </button>
+          <ul class="navbar-nav ml-auto">
+            <div class="topbar-divider d-none d-sm-block"></div>
+            <li class="nav-item dropdown no-arrow">
+              <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                <img class="img-profile rounded-circle"
+                  src="https://i.pinimg.com/736x/4b/7e/27/4b7e27dde43758a0544fe9abf6b180b9.jpg"
+                  style="max-width: 100px" />
+                <span class="ml-2 d-none d-lg-inline text-white small"></span>
+              </a>
+            </li>
+          </ul>
+        </nav>      
+               <div class="col-xxl-4 col-xl-12">
+<div class="card">
+<ul>
+<li> Selamat Datang Di Dashboard Kami. Gunakan Api Ini Dengan Bijak .</li>
+</ul>
+</div>
+</div>
+
+
+
+
+<div class="col-xxl-4 col-xl-12">
+<div class="card">
+<div class="card-body">
+<strong><i class="bi bi-people-fill"></i> Thanks To:</strong>
+<div class="row">
+<div class="col-auto">
+<ul>
+<li> Allah SWT.</li>
+<li> Parents</li>
+<li> Bang Putu.</li>
+<li> Bang Aces.</li>
+<li> Ryx.</li>
+<li> Arkan. (partner)</li>
+<li> ExpressJS, Pasport, vercell</li>
+<li> The person who helped share this API</li>
+</ul>
+</div>
+</div>
+</div>
+<span> <br> </span>
+          <footer class="sticky-footer bg-white">
+            <div class="container my-auto">
+              <div class="copyright text-center my-auto">
+                <span>copyright &copy;
+                  <script>
+                    document.write(new Date().getFullYear());
+                  </script>
+                  <b><a href="https://github.com/RyxDisini"
+                      target="_blank">Ryx Apis</a></b>
+                </span>
+              </div>
+            </div>
+          </footer>
+        </div>
+      </div>
+    </div>
+    <a class="scroll-to-top rounded" href="#page-top">
+      <i class="fas fa-angle-up"></i>
+    </a>
+    <script src="https://indrijunanda.github.io/RuangAdmin/vendor/jquery/jquery.min.js"></script>
+    <script src="https://indrijunanda.github.io/RuangAdmin/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://indrijunanda.github.io/RuangAdmin/vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="https://indrijunanda.github.io/RuangAdmin/js/ruang-admin.min.js"></script>
+  </div>
+</body>
+
+</html>
