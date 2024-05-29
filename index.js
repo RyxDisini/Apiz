@@ -79,7 +79,7 @@ async function blackboxAIChat(message) {
   }
 }
 
-async function GPT(text) {
+async function GPT(message) {
   return new Promise(async (resolve, reject) => {
     axios("https://www.chatgptdownload.org/wp-json/mwai-ui/v1/chats/submit", {
       "headers": {
